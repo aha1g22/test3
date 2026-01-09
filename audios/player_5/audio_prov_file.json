@@ -1,0 +1,62 @@
+{
+    "prefix": {
+        "prov": "http://www.w3.org/ns/prov#",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "dd": "http://digitisingdungeons.soton.ac.uk/ns#",
+        "audio": "http://digitisingdungeons.soton.ac.uk/id/audio/",
+        "agent": "http://digitisingdungeons.soton.ac.uk/id/agent/",
+        "activity": "http://digitisingdungeons.soton.ac.uk/id/activity/"
+    },
+    "entity": {
+        "audio:P5_master_audio.wav": {
+            "prov:type": "dd:MasterAudioFile",
+            "dd:path": "audios/player_5/P5_master_audio.wav",
+            "dd:file_size_bytes": 3932238
+        },
+        "audio:P5_part_1_audio.wav": {
+            "prov:type": "dd:RawAudioSplit",
+            "dd:path": "audios/player_5/P5_part_1.wav"
+        },
+        "audio:P5_part_2_audio.wav": {
+            "prov:type": "dd:RawAudioSplit",
+            "dd:path": "audios/player_5/P5_part_2.wav"
+        }
+    },
+    "agent": {
+        "agent:dd_capture_kit_pi5": {
+            "prov:type": "prov:SoftwareAgent",
+            "prov:label": "Digitising Dungeons Capture Kit (Raspberry Pi 5)"
+        }
+    },
+    "activity": {
+        "activity:recording_session_1767965088": {
+            "prov:startTime": "2026-01-09T13:24:48",
+            "prov:endTime": "2026-01-09T13:28:11",
+            "dd:session_date": "09-01-2026",
+            "dd:action": "Stitching raw audio splits into master file"
+        }
+    },
+    "wasGeneratedBy": {
+        "gen_master": {
+            "prov:entity": "audio:P5_master_audio.wav",
+            "prov:activity": "activity:recording_session_1767965088"
+        }
+    },
+    "used": {
+        "use_split_1": {
+            "prov:activity": "activity:recording_session_1767965088",
+            "prov:entity": "audio:P5_part_1_audio.wav"
+        },
+        "use_split_2": {
+            "prov:activity": "activity:recording_session_1767965088",
+            "prov:entity": "audio:P5_part_2_audio.wav"
+        }
+    },
+    "wasAssociastedWith": {
+        "assoc_pi": {
+            "prov:activity": "activity:recording_session_1767965088",
+            "prov:agent": "agent:dd_capture_kit_pi5",
+            "prov:role": "recorder"
+        }
+    }
+}
