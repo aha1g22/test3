@@ -1,0 +1,48 @@
+{
+  "prefix": {
+    "prov": "http://www.w3.org/ns/prov#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dd": "http://digitisingdungeons.soton.ac.uk/ns#",
+    "transcript": "http://digitisingdungeons.soton.ac.uk/id/transcript/",
+    "agent": "http://digitisingdungeons.soton.ac.uk/id/agent/",
+    "activity": "http://digitisingdungeons.soton.ac.uk/id/activity/"
+  },
+  "entity": {
+    "transcript:player_1_transcript_iridis_clone_1767967646.txt": {
+      "prov:type": "dd:TranscriptFile",
+      "dd:path": "player_1_transcript_iridis_clone_1767967646.txt",
+      "dd:label": "corrected version"
+    }
+  },
+  "agent": {
+    "agent:g4i": {
+      "prov:type": "prov:Person",
+      "prov:label": "g4i"
+    }
+  },
+  "activity": {
+    "activity:cloning_1767967646": {
+      "prov:startTime": "2026-01-09T14:07:26.935331",
+      "prov:type": "dd:ManualCloning"
+    }
+  },
+  "wasGeneratedBy": {
+    "generation1": {
+      "prov:entity": "transcript:player_1_transcript_iridis_clone_1767967646.txt",
+      "prov:activity": "activity:cloning_1767967646"
+    }
+  },
+  "wasDerivedFrom": {
+    "derivation1": {
+      "prov:generatedEntity": "transcript:player_1_transcript_iridis_clone_1767967646.txt",
+      "prov:usedEntity": "transcript:player_1_transcript_iridis.txt",
+      "prov:type": "prov:Revision"
+    }
+  },
+  "wasAssociatedWith": {
+    "association1": {
+      "prov:activity": "activity:cloning_1767967646",
+      "prov:agent": "agent:g4i"
+    }
+  }
+}

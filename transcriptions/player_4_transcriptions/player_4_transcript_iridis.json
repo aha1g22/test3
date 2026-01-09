@@ -1,0 +1,65 @@
+{
+  "prefix": {
+    "prov": "http://www.w3.org/ns/prov#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dd": "http://digitisingdungeons.soton.ac.uk/ns#",
+    "audio": "http://digitisingdungeons.soton.ac.uk/id/audio/",
+    "transcript": "http://digitisingdungeons.soton.ac.uk/id/transcript/",
+    "agent": "http://digitisingdungeons.soton.ac.uk/id/agent/",
+    "activity": "http://digitisingdungeons.soton.ac.uk/id/activity/"
+  },
+  "entity": {
+    "audio:P4_master_audio.wav": {
+      "prov:type": "dd:AudioFile",
+      "dd:path": "audios/player_4/P4_master_audio.wav"
+    },
+    "transcript:player_4_transcript_iridis.txt": {
+      "prov:type": "dd:TranscriptFile",
+      "dd:path": "transcriptions/player_4_transcriptions/player_4_transcript_iridis.txt",
+      "dd:status": "completed"
+    }
+  },
+  "agent": {
+    "agent:g4i": {
+      "prov:type": "prov:Person",
+      "prov:label": "g4i"
+    },
+    "agent:nvidia_canary_qwen_2.5b": {
+      "prov:type": "prov:SoftwareAgent",
+      "prov:label": "NVIDIA Canary-Qwen 2.5B"
+    }
+  },
+  "activity": {
+    "activity:transcription_516153": {
+      "prov:startTime": "2026-01-09T14:02:45.657755",
+      "prov:type": "dd:Transcription",
+      "dd:iridis_job_id": "516153",
+      "dd:model": "nvidia/canary-qwen-2.5b",
+      "prov:endTime": "2026-01-09T14:04:15.830303"
+    }
+  },
+  "wasGeneratedBy": {
+    "generation1": {
+      "prov:entity": "transcript:player_4_transcript_iridis.txt",
+      "prov:activity": "activity:transcription_516153"
+    }
+  },
+  "used": {
+    "usage1": {
+      "prov:activity": "activity:transcription_516153",
+      "prov:entity": "audio:P4_master_audio.wav"
+    }
+  },
+  "wasAssociatedWith": {
+    "association1": {
+      "prov:activity": "activity:transcription_516153",
+      "prov:agent": "agent:g4i",
+      "prov:role": "requester"
+    },
+    "association2": {
+      "prov:activity": "activity:transcription_516153",
+      "prov:agent": "agent:nvidia_canary_qwen_2.5b",
+      "prov:role": "transcriber"
+    }
+  }
+}

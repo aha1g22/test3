@@ -1,0 +1,13 @@
+audio/
+audios/
+video/
+videos/
+media/
+*.mp4
+*.mp3
+*.wav
+*.avi
+*.mov
+*.mkv
+__pycache__/
+*.pyc
