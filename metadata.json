@@ -1,0 +1,144 @@
+{
+ "start": 1767965088,
+ "events": [
+  {
+   "time": 1767965475,
+   "user": 9
+  }
+ ],
+ "notes": [
+  {
+   "time": 1767965458,
+   "user": 8,
+   "note": "Richard flipped the table."
+  },
+  {
+   "time": 1767965533,
+   "user": 9,
+   "note": "Richard flipped the table"
+  }
+ ],
+ "tags": [
+  "Drawing",
+  "Character sheet"
+ ],
+ "videos": [
+  {
+   "start": 1767965088,
+   "stop": 1767965118,
+   "name": "video_part_1.avi"
+  },
+  {
+   "start": 1767965279,
+   "stop": 1767965291,
+   "name": "video_part_2.avi"
+  }
+ ],
+ "players": {
+  "player_1": {
+   "name": "Player 1",
+   "audios": [
+    {
+     "start": 1767965088,
+     "stop": 1767965118,
+     "name": "P1_part_1_audio.wav"
+    },
+    {
+     "start": 1767965279,
+     "stop": 1767965291,
+     "name": "P1_part_2_audio.wav"
+    }
+   ],
+   "master_file": "P1_master_audio.wav"
+  },
+  "player_2": {
+   "name": "Player 2",
+   "audios": [
+    {
+     "start": 1767965088,
+     "stop": 1767965118,
+     "name": "P2_part_1_audio.wav"
+    },
+    {
+     "start": 1767965279,
+     "stop": 1767965291,
+     "name": "P2_part_2_audio.wav"
+    }
+   ],
+   "master_file": "P2_master_audio.wav"
+  },
+  "player_3": {
+   "name": "Player 3",
+   "audios": [
+    {
+     "start": 1767965088,
+     "stop": 1767965118,
+     "name": "P3_part_1_audio.wav"
+    },
+    {
+     "start": 1767965279,
+     "stop": 1767965291,
+     "name": "P3_part_2_audio.wav"
+    }
+   ],
+   "master_file": "P3_master_audio.wav"
+  },
+  "player_4": {
+   "name": "Player 4",
+   "audios": [
+    {
+     "start": 1767965088,
+     "stop": 1767965118,
+     "name": "P4_part_1_audio.wav"
+    },
+    {
+     "start": 1767965279,
+     "stop": 1767965291,
+     "name": "P4_part_2_audio.wav"
+    }
+   ],
+   "master_file": "P4_master_audio.wav"
+  },
+  "player_5": {
+   "name": "Player 5",
+   "audios": [
+    {
+     "start": 1767965088,
+     "stop": 1767965118,
+     "name": "P5_part_1_audio.wav"
+    },
+    {
+     "start": 1767965279,
+     "stop": 1767965291,
+     "name": "P5_part_2_audio.wav"
+    }
+   ],
+   "master_file": "P5_master_audio.wav"
+  },
+  "player_6": {
+   "name": "Player 6",
+   "audios": [
+    {
+     "start": 1767965088,
+     "stop": 1767965118,
+     "name": "P6_part_1_audio.wav"
+    },
+    {
+     "start": 1767965279,
+     "stop": 1767965291,
+     "name": "P6_part_2_audio.wav"
+    }
+   ],
+   "master_file": "P6_master_audio.wav"
+  }
+ },
+ "master_video_file": "master_video.avi",
+ "stop": 1767965294,
+ "users": [
+  "RigReview",
+  "User 2",
+  "User 3",
+  "User 4",
+  "User 5"
+ ]
+}
