@@ -1,0 +1,27 @@
+{
+  // 1. Session Synchronisation
+  start: 1768140000, 
+  stop:  1768154400,
+
+  // 2. Linking Players to Audio & Transcripts
+  players: {
+    "player_1": {
+      name: "Ash",
+      master_audio_file: "p1_full.wav", 
+      transcriptions?: [ ... ] // Added by Analysis Tool
+    }
+  },
+
+  // 3. Time-Synced Qualitative Data
+  events: [ 
+    { time: 1768140500, user: "Tomide", description: "Combat Starts" } 
+  ],
+  
+  notes: [ 
+    { time: 1768140600, user: "Elli", note: "Player seems anxious" } 
+  ],
+  
+  files: [ 
+    { time: 1768140700, name: "map.png", tags: ["Handout"] } 
+  ]
+}

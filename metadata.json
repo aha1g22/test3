@@ -2,8 +2,14 @@
   "start": 1767965088,
   "events": [
     {
+      "time": 1767965100,
+      "user": "g4i",
+      "description": "richard flipped table"
+    },
+    {
       "time": 1767965475,
-      "user": 9
+      "user": 9,
+      "description": "dice was rolled"
     }
   ],
   "notes": [
@@ -16,6 +22,16 @@
       "time": 1767965458,
       "user": 8,
       "note": "Richard flipped the table."
+    },
+    {
+      "time": 1767969000,
+      "user": "g4i",
+      "note": "note written"
+    },
+    {
+      "time": 1768016879,
+      "user": "g4i",
+      "note": "note written on phone"
     }
   ],
   "tags": [
@@ -36,7 +52,7 @@
   ],
   "players": {
     "player_1": {
-      "name": "Player 1",
+      "name": "Vanissa",
       "audios": [
         {
           "start": 1767965088,
@@ -158,5 +174,14 @@
     "User 5"
   ],
   "date": "09-01-2026",
-  "files": []
+  "files": [
+    {
+      "time": 1767968375,
+      "name": "gdp_key",
+      "tags": [
+        "Character sheet"
+      ],
+      "user": "g4i"
+    }
+  ]
 }
